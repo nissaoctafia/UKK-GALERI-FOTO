@@ -20,9 +20,17 @@ if ($_SESSION['status'] != 'login') {
 	<title>Website Gallery Foto</title>
 	<link rel="stylesheet" type="text/css" href="../assets/css/bootstrap.min.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
-</head>
+	<style>
+		.bg-image {
+			background-image: url('background.jpg');
+			background-size: cover;
+			height: 100vh;
+		}
 
-<body>
+	 </style>
+	 
+</head>
+<body class="bg-image">
 	<nav class="navbar navbar-expand-lg bg-body-tertiary">
 		<div class="container">
 			<a class="navbar-brand" href="index.php">Website Gallery Foto</a>
