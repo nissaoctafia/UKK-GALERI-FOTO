@@ -6,8 +6,17 @@
 	<title>Website Gallery Foto</title>
 	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+	<style>
+		.bg-image {
+			background-image: url('background.jpg');
+			background-size: cover;
+			height: 100vh;
+		}
+
+	 </style>
+	 
 </head>
-<body>
+<body class="bg-image">
 <nav class="navbar navbar-expand-lg bg-body-tertiary">
   <div class="container">
     <a class="navbar-brand" href="index.php">Website Gallery Foto</a>
@@ -27,10 +36,10 @@
 	<div class="row">
 		<div class="col-md-3">
 			<div class="card">
-				<img src="" class="card-img-top" title="" style="height: 12rem;">
+				<img src="zx.jpg" class="card-img-top" title="" style="height: 12rem;">
 				<div class="card-footer text-center">
-					<a href="">100 suka</a>
-					<a href="">37 komentar</a>
+					<a href=""><i class="fa-regular m-1"></i></a>FIGZ
+					<a href=""><i class="fa-regular m-1"></i></a>BISMILLAH
 				</div>
 			</div>
 		</div>
