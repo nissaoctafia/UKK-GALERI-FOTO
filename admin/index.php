@@ -20,9 +20,17 @@ if ($_SESSION['status'] != 'login') {
 	<link rel="shortcut icon" type="image/jpg" href="../assets/Icon.jpg">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
 	<title>Website Galeri Foto</title>
-</head>
+	<style>
+		.bg-image {
+			background-image: url('background.jpg');
+			background-size: cover;
+			height: 100vh;
+		}
 
-<body>
+	 </style>
+	 
+</head>
+<body class="bg-image">
 	<nav class="navbar navbar-expand-lg bg-body-tertiary">
 		<div class="container">
 			<a class="navbar-brand" href="index.php">Galeri Foto</a>
