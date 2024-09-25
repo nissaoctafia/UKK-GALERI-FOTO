@@ -18,8 +18,17 @@ if ($_SESSION['status'] != 'login') {
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Website Galeri Foto</title>
   <link rel="stylesheet" type="text/css" href="../assets/css/bootstrap.min.css">
+  <style>
+		.bg-image {
+			background-image: url('background.jpg');
+			background-size: cover;
+			height: 100vh;
+		}
+
+	 </style>
+	 
 </head>
-<body>
+<body class="bg-image">
   <nav class="navbar navbar-expand-lg bg-body-tertiary">
     <div class="container">
       <a class="navbar-brand" href="index.php">Website Galeri Foto</a>
